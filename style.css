@@ -27,7 +27,7 @@
     left: 37px;
     width: 48px;
     height: 2px;
-    background-color: #d94f5c;
+    
 }
 .bottom__active {
     transform: translate3d(350%, 0, 0);
