@@ -1,0 +1,270 @@
+﻿/*
+    Author: Fani Baloyi
+    Purpose: The intent of this CSS is to Stylise the  attached html files
+    Date: 25 Nov 2019
+*/
+
+/*creation of a form*/
+form{
+    width:50%;
+    margin: 100px auto;
+}
+form div{
+    margin: 3px auto;
+}
+.textInput{
+    margin-top:2px;
+    height: 28px;
+    border: 1px solid #5E6E66;
+    font-size:16px;
+    padding: 1px;
+    width:100%;
+}
+.btnSubmit{
+    padding:7px;
+    width: 100%;
+}
+.val_error{
+    color:#FF1F1F;
+}
+/*Email us button location*/
+.emailUsButtonParagraph{
+    text-align:right;
+}
+/*For the rating*/
+.rating {
+    position: static;
+    /*top: 50%;*/
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(180deg);
+    display: flex;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    background: #ccc;
+}
+
+.rating label:before {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: ghostwhite;
+}
+
+.rating label:after {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    color: #1f9cff;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after {
+    opacity: 1;
+}
+
+
+    .heroImages {
+        width: 650px;
+        height: 450px;
+        text-align: center;
+    }
+
+.heroImagesParagraph {
+    text-align: center;
+}
+.heroHeading {
+    text-align: center;
+    color: dodgerblue;
+}
+.supermanBody {
+    background-image: linear-gradient(supermanC.jpg);
+}
+.contactBody {
+    margin-right: 15%;
+}
+.mapCaption {
+    text-align:left;
+}
+.mapAlign {
+    text-align: left;
+}
+.contactUsHeading {
+    text-align: center;
+    margin-left: 2.5%;
+    color: dodgerblue;
+}
+.headerPages {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bottom__line {
+ 
+}
+.bottom__active {
+   
+}
+.bottom__active1 {
+   
+}
+
+.bottom__active2 {
+   
+}
+
+.color, .color1, .color2 {
+    
+}
+
+/*Colouring the background for the header*/
+.headerClassDiv {
+    /*background-color: slategray;*/
+    margin-bottom: 200px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*Comic Summary colour*/
+.comicSummary{
+    color:red;
+}
+.comicsHeader {
+    text-align: center;
+    color: dodgerblue;
+}
+.headerClass {
+    /*background-color: slategray;*/
+    
+    margin-left: 2px;
+    margin-right: 0px;
+    text-align: right;
+}
+
+/*Home Page Unordered list style*/
+.HomeUnorderedList {
+    list-style: none;
+    overflow: hidden;
+    background-color: #333333;
+    /*float: left;*/
+    padding-left: 350px;
+    padding-right: 20px;
+    margin-right: 2px;
+}
+.popularComicsDiv{
+    margin-top:200px;
+    text-align: left;
+}
+/*To be deleted, no purpose as yet*/
+.headerParagraphClass {
+    text-align: right;
+}
+.comicInfo{
+    color:yellow;
+}
+
+.galleryHeroHeading {
+    color: whitesmoke;
+}
+/*Header text alignment*/
+.headerDivClass {
+    /*padding-left:80%;*/
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+}
+.btnReadMore:hover {
+    background-color:aliceblue;
+}
+a:hover {
+    color: mediumvioletred;
+}
+homeListClass:hover {
+    /*background-color: #111111;*/
+}
+
+.homeListClass {
+    float: left;
+}
+.homeListClass a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.homeListClass a:hover {
+    background-color: #111111;
+}
+
+/*division for popular comics*/
+
+.popularComicsDiv{
+    margin-top: 20px;
+    background-color:lightgrey;
+    margin-right: 20px;
+}
+
+.popularComicsUnorderedList {
+    
+    display: block;
+}
+
+.popularComicsList {
+    display: block;
+}
+
+.popularComicsImg {
+    transition: transform .2s;
+    width: 165px;
+    height: 165px;
+}
+
+.popularComicsImg:hover {
+    transform: scale(1.5);
+}
+
+/*Picture display*/
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:5%;
+    margin-right:5%;
+    background-color:darkslategrey;
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.bottom_border{
+    margin: 2px;
+}
